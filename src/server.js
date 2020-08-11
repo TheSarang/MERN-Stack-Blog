@@ -72,6 +72,4 @@ app.post("/api/articles/:name/add-comment", (req, res) => {
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname + "/build/index.html"));
 });
-app.listen(process.env.PORT || 5000, () => {
-  console.log("Listening on port");
-});
+app.listen(process.env.PORT, "0.0.0.0");
