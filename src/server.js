@@ -2,7 +2,6 @@ import express from "express";
 import bodyParser from "body-parser";
 import { MongoClient } from "mongodb";
 import path from "path";
-// const port = process.env.PORT || 8000;
 const app = express();
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, "/build")));
