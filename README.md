@@ -13,8 +13,8 @@
 - Latest Articles</br>
 
 ## Screenshots
-![Alt text](/relative/path/to/Image1.png?raw=true "Image1")
-![Alt text](/relative/path/to/Image1.png?raw=true "Image1")
+![Alt text](/Image1.png?raw=true "Image1")
+![Alt text](/Image2.png?raw=true "Image1")
 
 ## Future Scope:
 - Host on Heroku
