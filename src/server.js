@@ -72,5 +72,5 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname + "/build/index.html"));
 });
 
-app.set(process.env.PORT || "8080");
+// app.set(process.env.PORT || "8080");
 app.listen(process.env.PORT, "8080");
