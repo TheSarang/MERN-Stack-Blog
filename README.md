@@ -1,7 +1,7 @@
 # MERN-Stack-Blog
 
 ## Languages Used:
-- MongoDB, Express.js, React.js, Node.js
+- MongoDB, Express.js, React.js, Node.js.
 
 ## Tools Used:
 - VSCode, MongoDB Compass
